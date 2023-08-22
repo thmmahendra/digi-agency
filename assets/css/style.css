@@ -1,0 +1,62 @@
+body,
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header CSS Starts */
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem #20b15a6b;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    ;
+}
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #20b15a;
+}
+
+.dropdown-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 15px 20px;
+    color: black;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+li:last-child .dropdown-item {
+    border-bottom: none;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: inherit;
+}
+
+.navbar-brand {
+    color: inherit;
+}
+
+.navbar-brand span {
+    color: #f55f1d;
+}
+
+/* Header CSS Ends */
