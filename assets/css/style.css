@@ -243,3 +243,50 @@ header.fixed-top {
 }
 
 /* Our Progress Ends */
+
+/* Portfolio Starts */
+
+.portfolio {
+    padding: 75px;
+}
+
+.portfolio-container {
+    column-gap: 6em;
+    column-count: 2;
+}
+
+.portfolio h2.main-heading {
+    margin-bottom: 75px;
+}
+
+.portfolio .portfolio-wrapper {
+    display: inline-block;
+    width: 100%;
+    break-inside: avoid;
+}
+
+.portfolio .portfolio-wrapper:nth-child(odd) {
+    margin: 0 0 6em;
+}
+
+.portfolio .portfolio-wrapper img {
+    margin-bottom: 42px;
+    width: 100%;
+}
+
+.portfolio .portfolio-wrapper h4 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.portfolio .portfolio-wrapper p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding-right: 27px;
+}
+
+/* Portfolio Ends */
