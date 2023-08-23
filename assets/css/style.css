@@ -98,3 +98,36 @@ header.fixed-top {
 }
 
 /* Header CSS Ends */
+
+/* Hero Banner Stats */
+
+.hero-banner {
+    background-color: #d7f5dc;
+    padding: 120px 0 35px;
+}
+
+.hero-banner h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.hero-banner p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 37px;
+}
+
+.hero-banner a {
+    padding: 20px 30px;
+    line-height: 1;
+}
+
+.social-logos {
+    background-color: #fff;
+    padding: 44px 0;
+}
+
+/* Hero Banner Ends */
