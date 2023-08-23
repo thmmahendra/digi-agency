@@ -205,3 +205,41 @@ header.fixed-top {
 }
 
 /* What We Do End */
+
+/* Our Progress Start */
+
+.our-progress {
+    padding: 80px 0;
+    background-color: #fafffb;
+}
+
+.our-progress ul li {
+    padding: 40px;
+    border-right: 1px solid #c4c4c480;
+    text-align: center;
+}
+
+.our-progress ul li:last-child {
+    border-right: none;
+}
+
+.our-progress ul li img {
+    margin-bottom: 10px;
+}
+
+.our-progress ul li h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.our-progress ul li h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #20b15a;
+}
+
+/* Our Progress Ends */
