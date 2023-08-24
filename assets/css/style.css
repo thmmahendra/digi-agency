@@ -382,3 +382,70 @@ header.fixed-top {
 }
 
 /* Testimonials Ends */
+
+/* Newsletter Starts */
+
+.subscribe {
+    padding: 95px 0;
+}
+
+.subscribe h5.sub-heading {
+    margin-bottom: 22px;
+}
+
+.subscribe h2.main-heading {
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.subscribe p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #8b8b8b;
+    margin-bottom: 40px;
+}
+
+.subscribe form input[type="email"] {
+    padding: 20px 16px;
+    border-radius: 14px;
+    border: 1px solid black;
+    width: 100%;
+    outline: 0;
+    max-height: 62px;
+}
+
+.subscribe form input::placeholder {
+    font-size: 20px 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+.subscribe form input[type="submit"] {
+    position: absolute;
+    right: 4.5px;
+    padding: 8px 24px;
+    border-radius: 14px;
+    background-color: #f55f1d;
+    border: none;
+    outline: 0;
+    color: white;
+    height: 52px;
+    top: 4.5px;
+}
+
+.subscribe form {
+    position: relative;
+}
+
+div#subscribe-response-message {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+/* Newsletter Ends */
