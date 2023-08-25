@@ -638,6 +638,151 @@ div#subscribe-response-message {
     .subscribe {
         padding: 60px 0;
     }
+
+    .testimonials-slider .slick-arrow {
+        height: 50px;
+        width: 50px;
+    }
+
+    .testimonials-slider .slick-list {
+        padding: 0 30% 0 0;
+    }
+
+    .site-footer p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .site-footer .col-md-4 {
+        width: 25%;
+    }
+
+    .site-footer .col-md-3 {
+        width: 33.33%;
+    }
+
+    .site-footer .footer-menu li a {
+        font-size: 16px;
+    }
+
+    .site-footer .footer-menu {
+        row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    br {
+        display: none;
+    }
+
+    .main-heading {
+        font-size: 27px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    header .navbar-collapse {
+        padding-top: 30px;
+    }
+
+    .hero-banner .col-md-6 {
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-banner .row,
+    .what-we-do .row {
+        row-gap: 30px;
+    }
+
+    .social-logos .nav {
+        justify-content: center;
+        row-gap: 25px;
+    }
+
+    .social-logos .nav li {
+        flex: 0 0 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .what-we-do .boxes-wrapper h3 {
+        min-height: auto;
+    }
+
+    .our-progress ul li {
+        padding: 25px;
+        flex: 0 0 100%;
+    }
+
+    .portfolio-container {
+        column-count: 1;
+    }
+
+    .portfolio .portfolio-wrapper {
+        margin: 0 0 3em;
+    }
+
+    .portfolio .portfolio-wrapper:last-child {
+        margin: 0;
+    }
+
+    .testimonials-slider .slick-list {
+        padding: 0;
+    }
+
+    .testimonials-slider .item p {
+        font-size: 16px;
+    }
+
+    .testimonials-slider .item {
+        padding: 25px;
+    }
+
+    .testimonials-slider .item .client-detail h4 {
+        font-size: 18px;
+    }
+
+    .testimonials-slider .slick-arrow {
+        height: 40px;
+        width: 40px;
+        top: -15px;
+    }
+
+    .testimonials-slider .slick-arrow svg {
+        height: 17px;
+        width: 17px;
+    }
+
+    .testimonials-slider .slick-prev {
+        right: 70px;
+    }
+
+    .subscribe form input::placeholder {
+        font-size: 14px;
+    }
+
+    .site-footer .row {
+        row-gap: 30px;
+    }
+
+    .site-footer .copyright {
+        margin: 30px 0 0;
+        text-align: left;
+    }
+
+    .site-footer {
+        padding: 60px 0 30px;
+    }
+
+    .site-footer .col-md-4,
+    .site-footer .col-md-3 {
+        width: 100%;
+    }
+
 }
 
 /* Media Queries Ends */
